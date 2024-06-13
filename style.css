@@ -1,0 +1,52 @@
+
+*{
+    transition: all 0.3s;
+}
+body{
+    background-color: rgb(26, 26, 26);
+}
+.container{
+    margin-top: 240px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(49, 49, 49);
+    border-radius: 50px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tiempo{
+    color: white;
+}
+.conteo{
+    font-size: 300%;
+    font-family: 'Calibri';
+}
+button{
+    width: 15%;
+    height: 35px;
+    border-radius: 60px;
+    color: white; 
+    font-size: 20px; 
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    border: none;
+}
+.start{
+    background: linear-gradient(to bottom, rgba(120, 0, 240, 0.829), rgba(201, 154, 248, 0.6));
+    display: inline-block;
+}
+.pause{
+    background: linear-gradient(to bottom, rgba(255, 14, 26, 0.863), rgba(245, 69, 69, 0.6));
+    display: none;
+}
+.delete{
+    background: linear-gradient(to bottom,rgba(34, 34, 34, 0.753), rgba(82, 82, 82, 0.6));
+    display: none;
+}
+.resume{
+    background: linear-gradient(to bottom, rgba(128, 0, 255, 0.829), rgba(201, 154, 248, 0.6));
+    display: none;
+}
